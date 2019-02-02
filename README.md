@@ -5,9 +5,11 @@ this project is a simple javascript game that uses
 *Event Listeners
 
 ## Used External Libraries
-[jquery](https://jquery.com/)
-[jquery-ui](https://jqueryui.com/)
-[bootstrap](https://getbootstrap.com/)
+1. [jquery](https://jquery.com/)
+2. [jquery-ui](https://jqueryui.com/)
+3. [bootstrap](https://getbootstrap.com/)
+
+
 
 
  
