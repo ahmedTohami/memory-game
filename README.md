@@ -62,7 +62,7 @@ function getTimeRemaining(endtime) {
   }
 
 ```
-
+---
 ### I also used my own modal
 	<div id="clockdiv">
                 <span class="minutes"></span>
@@ -70,6 +70,24 @@ function getTimeRemaining(endtime) {
                 <span class="seconds"></span>
                 <span >seconds</span>
     </div>
+---
+	
+### setInterval 
+I used it to keep tracking the clock each 0.5 second if the time ended and the player did not finish then he loses and at 
+```
+ var clockTracker = window.setInterval(function timeTrackerCallBack() {
+    var clock = document.querySelector('#clockdiv');
+    var minutes =clock.querySelector('.minutes').innerText;
+    var seconds = clock.querySelector('.seconds').innerText;
+
+    if(numberOfMatches < 8 && Number(minutes)<= 0 && Number(seconds)<=0){
+      alert('sorry you lost time out');
+       clearInterval(timeinterval);
+       clearInterval(clockTracker);
+    }
+  }, 500);
+```
+---
 
 
 
