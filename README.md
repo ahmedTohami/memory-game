@@ -63,5 +63,15 @@ function getTimeRemaining(endtime) {
 
 ```
 
+### I also used my own modal
+	<div id="clockdiv">
+                <span class="minutes"></span>
+                <span >minutes</span>
+                <span class="seconds"></span>
+                <span >seconds</span>
+    </div>
+
+
+
 
  
