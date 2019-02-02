@@ -73,7 +73,7 @@ function getTimeRemaining(endtime) {
 ---
 	
 ### setInterval 
-I used it to keep tracking the clock each 0.5 second if the time ended and the player did not finish then he loses and at 
+I used it to keep tracking the clock each 0.5 second if the time ended and the player did not finish then he loses 
 ```
  var clockTracker = window.setInterval(function timeTrackerCallBack() {
     var clock = document.querySelector('#clockdiv');
